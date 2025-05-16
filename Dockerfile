@@ -1,8 +1,8 @@
-FROM registry.access.redhat.com/ubi9/go-toolset@sha256:8a634d63713a073d7a1e086a322e57b148eef9620834fc8266df63d9294dff1b AS builder
+FROM registry.access.redhat.com/ubi9/go-toolset@sha256:e0ad156b08e0b50ad509d79513e13e8a31f2812c66e9c48c98cea53420ec2bca AS builder
 ARG KO_VERSION=v0.17.1
 RUN GOBIN=/tmp go install github.com/google/ko@${KO_VERSION}
 
-FROM registry.access.redhat.com/ubi9/go-toolset@sha256:8a634d63713a073d7a1e086a322e57b148eef9620834fc8266df63d9294dff1b
+FROM registry.access.redhat.com/ubi9/go-toolset@sha256:e0ad156b08e0b50ad509d79513e13e8a31f2812c66e9c48c98cea53420ec2bca
 COPY --from=builder /tmp/ko /usr/bin/ko
 ENTRYPOINT ["/usr/bin/ko"]
 
