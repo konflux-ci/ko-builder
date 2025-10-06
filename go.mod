@@ -87,7 +87,7 @@ require (
 	github.com/google/go-containerregistry v0.20.4-0.20250225234217-098045d5e61f // indirect
 	github.com/google/safetext v0.0.0-20240722112252-5a72de7e7962 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/in-toto/attestation v1.1.1 // indirect
+	github.com/in-toto/attestation v1.1.2 // indirect
 	github.com/in-toto/in-toto-golang v0.9.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jedisct1/go-minisign v0.0.0-20241212093149-d2f9f49435c7 // indirect
