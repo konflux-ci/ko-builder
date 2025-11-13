@@ -1,9 +1,9 @@
-FROM registry.access.redhat.com/ubi9/go-toolset@sha256:84286c7555df503df0bd3acb86fe2ad50af82a07f35707918bb0fad312fdc193 AS builder
+FROM registry.access.redhat.com/ubi9/go-toolset@sha256:380d6de9bbc5a42ca13d425be99958fb397317664bb8a00e49d464e62cc8566c AS builder
 COPY go.mod go.sum .
 RUN GOBIN=/tmp go install -mod=readonly github.com/google/ko
 RUN GOBIN=/tmp go install -mod=readonly github.com/sigstore/cosign/v2/cmd/cosign
 
-FROM registry.access.redhat.com/ubi9/go-toolset@sha256:84286c7555df503df0bd3acb86fe2ad50af82a07f35707918bb0fad312fdc193
+FROM registry.access.redhat.com/ubi9/go-toolset@sha256:380d6de9bbc5a42ca13d425be99958fb397317664bb8a00e49d464e62cc8566c
 COPY --from=builder /tmp/ko /usr/bin/ko
 COPY --from=builder /tmp/cosign /usr/bin/cosign
 
