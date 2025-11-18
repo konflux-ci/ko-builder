@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "osvVulnerabilityAlerts": true,
+  "semanticCommits": "disabled",
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
+  "automerge": true,
+  "prHourlyLimit": 1
+}
