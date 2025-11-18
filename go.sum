@@ -447,8 +447,6 @@ github.com/google/safetext v0.0.0-20240722112252-5a72de7e7962 h1:+9C/TgFfcCmZBV7
 github.com/google/safetext v0.0.0-20240722112252-5a72de7e7962/go.mod h1:H3K1Iu/utuCfa10JO+GsmKUYSWi7ug57Rk6GaDRHaaQ=
 github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 h1:El6M4kTTCOh6aBiKaUGG7oYTSPP8MxqL4YI3kZKwcP4=
 github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510/go.mod h1:pupxD2MaaD3pAXIBCelhxNneeOaAeabZDe5s4K6zSpQ=
-github.com/google/tink/go v1.7.0 h1:6Eox8zONGebBFcCBqkVmt60LaWZa6xg1cl/DwAh/J1w=
-github.com/google/tink/go v1.7.0/go.mod h1:GAUOd+QE3pgj9q8VKIGTCP33c/B7eb4NhxLcgTJZStM=
 github.com/google/trillian v1.7.2 h1:EPBxc4YWY4Ak8tcuhyFleY+zYlbCDCa4Sn24e1Ka8Js=
 github.com/google/trillian v1.7.2/go.mod h1:mfQJW4qRH6/ilABtPYNBerVJAJ/upxHLX81zxNQw05s=
 github.com/google/uuid v1.0.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
@@ -691,8 +689,8 @@ github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5
 github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5d3339b3/go.mod h1:tRtJzSZ48MXJV9bmS8pkb3mP36PCad/Cs+BmVJ3Z4O4=
 github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.9.5 h1:S2ukEfN1orLKw2wEQIUHDDlzk0YcylhcheeZ5TGk8LI=
 github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.9.5/go.mod h1:m7sQxVJmDa+rsmS1m6biQxaLX83pzNS7ThUEyjOqkCU=
-github.com/sigstore/timestamp-authority v1.2.6 h1:e8vcpfeeJfpkj+S6sLopbLSvqIzBB6OORslxxIN3tGI=
-github.com/sigstore/timestamp-authority v1.2.6/go.mod h1:X1NyVsRgiK8Bfguqe7Gr5ndyTOwAeGwU7l/vAjvF778=
+github.com/sigstore/timestamp-authority v1.2.9 h1:L9Fj070/EbMC8qUk8BchkrYCS1BT5i93Bl6McwydkFs=
+github.com/sigstore/timestamp-authority v1.2.9/go.mod h1:QyRnZchz4o+xdHyK5rvCWacCHxWmpX+mgvJwB1OXcLY=
 github.com/sirupsen/logrus v1.9.3 h1:dueUQJ1C2q9oE3F7wvmSGAaVtTmUizReu6fjN8uqzbQ=
 github.com/sirupsen/logrus v1.9.3/go.mod h1:naHLuLoDiP4jHNo9R0sCBMtWGeIprob74mVsIT4qYEQ=
 github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966 h1:JIAuq3EEf9cgbU6AtGPK4CTG3Zf6CKMNqf0MHTggAUA=
@@ -744,6 +742,8 @@ github.com/tink-crypto/tink-go-awskms/v2 v2.1.0 h1:N9UxlsOzu5mttdjhxkDLbzwtEecuX
 github.com/tink-crypto/tink-go-awskms/v2 v2.1.0/go.mod h1:PxSp9GlOkKL9rlybW804uspnHuO9nbD98V/fDX4uSis=
 github.com/tink-crypto/tink-go-gcpkms/v2 v2.2.0 h1:3B9i6XBXNTRspfkTC0asN5W0K6GhOSgcujNiECNRNb0=
 github.com/tink-crypto/tink-go-gcpkms/v2 v2.2.0/go.mod h1:jY5YN2BqD/KSCHM9SqZPIpJNG/u3zwfLXHgws4x2IRw=
+github.com/tink-crypto/tink-go-hcvault/v2 v2.3.0 h1:6nAX1aRGnkg2SEUMwO5toB2tQkP0Jd6cbmZ/K5Le1V0=
+github.com/tink-crypto/tink-go-hcvault/v2 v2.3.0/go.mod h1:HOC5NWW1wBI2Vke1FGcRBvDATkEYE7AUDiYbXqi2sBw=
 github.com/tink-crypto/tink-go/v2 v2.5.0 h1:B8KLF6AofxdBIE4UJIaFbmoj5/1ehEtt7/MmzfI4Zpw=
 github.com/tink-crypto/tink-go/v2 v2.5.0/go.mod h1:2WbBA6pfNsAfBwDCggboaHeB2X29wkU8XHtGwh2YIk8=
 github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399 h1:e/5i7d4oYZ+C1wj2THlRK+oAhjeS/TRQwMfkIuet3w0=
