@@ -234,7 +234,7 @@ require (
 	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5d3339b3 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.9.5 // indirect
 	github.com/sigstore/timestamp-authority v1.2.9 // indirect
-	github.com/sirupsen/logrus v1.9.4-0.20230606125235-dd1b4c2e81af // indirect
+	github.com/sirupsen/logrus v1.9.4-0.20251023124752-b61f268f75b6 // indirect
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966 // indirect
 	github.com/spf13/afero v1.15.0 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
