@@ -182,7 +182,7 @@ require (
 	github.com/lestrrat-go/dsig-secp256k1 v1.0.0 // indirect
 	github.com/lestrrat-go/httpcc v1.0.1 // indirect
 	github.com/lestrrat-go/httprc/v3 v3.0.1 // indirect
-	github.com/lestrrat-go/jwx/v3 v3.0.11 // indirect
+	github.com/lestrrat-go/jwx/v3 v3.0.12 // indirect
 	github.com/lestrrat-go/option v1.0.1 // indirect
 	github.com/lestrrat-go/option/v2 v2.0.0 // indirect
 	github.com/letsencrypt/boulder v0.20251118.0 // indirect
@@ -221,7 +221,7 @@ require (
 	github.com/sagikazarmark/locafero v0.12.0 // indirect
 	github.com/sassoftware/relic v7.2.1+incompatible // indirect
 	github.com/secure-systems-lab/go-securesystemslib v0.9.1 // indirect
-	github.com/segmentio/asm v1.2.0 // indirect
+	github.com/segmentio/asm v1.2.1 // indirect
 	github.com/segmentio/ksuid v1.0.4 // indirect
 	github.com/shibumi/go-pathspec v1.3.0 // indirect
 	github.com/sigstore/fulcio v1.6.6 // indirect
