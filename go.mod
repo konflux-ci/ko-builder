@@ -18,7 +18,7 @@ require (
 	cloud.google.com/go/longrunning v0.7.0 // indirect
 	cuelabs.dev/go/oci/ociregistry v0.0.0-20251112093024-b12090c4dee0 // indirect
 	cuelang.org/go v0.15.1 // indirect
-	github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/provider v0.19.0 // indirect
+	github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/provider v0.20.0 // indirect
 	github.com/AliyunContainerService/ack-ram-tool/pkg/ecsmetadata v0.0.10 // indirect
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.20.0 // indirect
