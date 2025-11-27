@@ -703,8 +703,8 @@ github.com/sigstore/sigstore v1.9.5 h1:Wm1LT9yF4LhQdEMy5A2JeGRHTrAWGjT3ubE5JUSrG
 github.com/sigstore/sigstore v1.9.5/go.mod h1:VtxgvGqCmEZN9X2zhFSOkfXxvKUjpy8RpUW39oCtoII=
 github.com/sigstore/sigstore-go v0.7.3 h1:ZaU//y0m0dnwJPfBCAT3QNqQoIAANyxik9ze8mn0YVI=
 github.com/sigstore/sigstore-go v0.7.3/go.mod h1:7M8Dvc8owygStmJGy/Vtk5xF6ayUMRUxsMUZeRJnMPQ=
-github.com/sigstore/sigstore/pkg/signature/kms/aws v1.9.5 h1:qp2VFyKuFQvTGmZwk5Q7m5nE4NwnF9tHwkyz0gtWAck=
-github.com/sigstore/sigstore/pkg/signature/kms/aws v1.9.5/go.mod h1:DKlQjjr+GsWljEYPycI0Sf8URLCk4EbGA9qYjF47j4g=
+github.com/sigstore/sigstore/pkg/signature/kms/aws v1.10.0 h1:UOHpiyezCj5RuixgIvCV3QyuxIGQT+N6nGZEXA7OTTY=
+github.com/sigstore/sigstore/pkg/signature/kms/aws v1.10.0/go.mod h1:U0CZmA2psabDa8DdiV7yXab0AHODzfKqvD2isH7Hrvw=
 github.com/sigstore/sigstore/pkg/signature/kms/azure v1.9.5 h1:CRZcdYn5AOptStsLRAAACudAVmb1qUbhMlzrvm7ju3o=
 github.com/sigstore/sigstore/pkg/signature/kms/azure v1.9.5/go.mod h1:b9rFfITq2fp1M3oJmq6lFFhSrAz5vOEJH1qzbMsZWN4=
 github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5d3339b3 h1:a7Yz8C0aBa/LjeiTa9ZLYi9B74GNhFRnUIUdvN6ddVk=
