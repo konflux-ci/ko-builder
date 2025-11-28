@@ -232,7 +232,7 @@ require (
 	github.com/sigstore/sigstore-go v0.7.3 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/aws v1.10.0 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/azure v1.10.0 // indirect
-	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5d3339b3 // indirect
+	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.10.0 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.10.0 // indirect
 	github.com/sigstore/timestamp-authority v1.2.9 // indirect
 	github.com/sirupsen/logrus v1.9.4-0.20251023124752-b61f268f75b6 // indirect
