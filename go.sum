@@ -608,6 +608,8 @@ github.com/mozillazg/docker-credential-acr-helper v0.4.0 h1:Uoh3Z9CcpEDnLiozDx+D
 github.com/mozillazg/docker-credential-acr-helper v0.4.0/go.mod h1:2kiicb3OlPytmlNC9XGkLvVC+f0qTiJw3f/mhmeeQBg=
 github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 h1:C3w9PqII01/Oq1c1nUAm88MOHcQC9l5mIlSMApZMrHA=
 github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822/go.mod h1:+n7T8mK8HuQTcFwEeznm/DIxMOiR9yIdICNftLE1DvQ=
+github.com/natefinch/atomic v1.0.1 h1:ZPYKxkqQOx3KZ+RsbnP/YsgvxWQPGxjC0oBt2AhwV0A=
+github.com/natefinch/atomic v1.0.1/go.mod h1:N/D/ELrljoqDyT3rZrsUmtsuzvHkeB/wWjHV22AZRbM=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/nozzle/throttler v0.0.0-20180817012639-2ea982251481 h1:Up6+btDp321ZG5/zdSLo48H9Iaq0UQGthrhWC6pCxzE=
 github.com/nozzle/throttler v0.0.0-20180817012639-2ea982251481/go.mod h1:yKZQO8QE2bHlgozqWDiRVqTFlLQSj30K/6SAK8EeYFw=
@@ -709,8 +711,8 @@ github.com/sigstore/sigstore/pkg/signature/kms/azure v1.10.0 h1:fq4+8Y4YadxeF8mz
 github.com/sigstore/sigstore/pkg/signature/kms/azure v1.10.0/go.mod h1:u05nqPWY05lmcdHhv2lPaWTH3FGUhJzO7iW2hbboK3Q=
 github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5d3339b3 h1:a7Yz8C0aBa/LjeiTa9ZLYi9B74GNhFRnUIUdvN6ddVk=
 github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5d3339b3/go.mod h1:tRtJzSZ48MXJV9bmS8pkb3mP36PCad/Cs+BmVJ3Z4O4=
-github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.9.5 h1:S2ukEfN1orLKw2wEQIUHDDlzk0YcylhcheeZ5TGk8LI=
-github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.9.5/go.mod h1:m7sQxVJmDa+rsmS1m6biQxaLX83pzNS7ThUEyjOqkCU=
+github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.10.0 h1:dUvPv/MP23ZPIXZUW45kvCIgC0ZRfYxEof57AB6bAtU=
+github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.10.0/go.mod h1:fR/gDdPvJWGWL70/NgBBIL1O0/3Wma6JHs3tSSYg3s4=
 github.com/sigstore/timestamp-authority v1.2.9 h1:L9Fj070/EbMC8qUk8BchkrYCS1BT5i93Bl6McwydkFs=
 github.com/sigstore/timestamp-authority v1.2.9/go.mod h1:QyRnZchz4o+xdHyK5rvCWacCHxWmpX+mgvJwB1OXcLY=
 github.com/sirupsen/logrus v1.9.4-0.20251023124752-b61f268f75b6 h1:JEH4GlfEqachL/BWMxNEqYZGst5AGInBdLF/bEx+dZY=

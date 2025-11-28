@@ -199,6 +199,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/mozillazg/docker-credential-acr-helper v0.4.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/natefinch/atomic v1.0.1 // indirect
 	github.com/nozzle/throttler v0.0.0-20180817012639-2ea982251481 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/oleiade/reflections v1.1.0 // indirect
@@ -232,7 +233,7 @@ require (
 	github.com/sigstore/sigstore/pkg/signature/kms/aws v1.10.0 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/azure v1.10.0 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.9.6-0.20250729224751-181c5d3339b3 // indirect
-	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.9.5 // indirect
+	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.10.0 // indirect
 	github.com/sigstore/timestamp-authority v1.2.9 // indirect
 	github.com/sirupsen/logrus v1.9.4-0.20251023124752-b61f268f75b6 // indirect
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966 // indirect
