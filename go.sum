@@ -561,8 +561,8 @@ github.com/lestrrat-go/jwx/v3 v3.0.12 h1:p25r68Y4KrbBdYjIsQweYxq794CtGCzcrc5dGzJ
 github.com/lestrrat-go/jwx/v3 v3.0.12/go.mod h1:HiUSaNmMLXgZ08OmGBaPVvoZQgJVOQphSrGr5zMamS8=
 github.com/lestrrat-go/option/v2 v2.0.0 h1:XxrcaJESE1fokHy3FpaQ/cXW8ZsIdWcdFzzLOcID3Ss=
 github.com/lestrrat-go/option/v2 v2.0.0/go.mod h1:oSySsmzMoR0iRzCDCaUfsCzxQHUEuhOViQObyy7S6Vg=
-github.com/letsencrypt/boulder v0.20251118.0 h1:ubzBptmo8CBybYI5ZbLV5mb5S9X98y+wn0vuESRZ7+4=
-github.com/letsencrypt/boulder v0.20251118.0/go.mod h1:ogKCJQwll82m7OVHWyTuf8eeFCjuzdRQlgnZcCl0V+8=
+github.com/letsencrypt/boulder v0.20251202.0 h1:/armu7A/ARWtvEr1t1Zs+zJ2cHWvEU7N+diV9ZvdS2Y=
+github.com/letsencrypt/boulder v0.20251202.0/go.mod h1:Wi99CY9yzFg4yaHamFCBIScvY8KOcBUe1rlPjUZNTJM=
 github.com/lib/pq v1.10.9 h1:YXG7RB+JIjhP29X+OtkiDnYaXQwpS4JEWq7dtCCRUEw=
 github.com/lib/pq v1.10.9/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
 github.com/manifoldco/promptui v0.9.0 h1:3V4HzJk1TtXW1MTZMP7mdlwbBpIinw3HztaIlYthEiA=
