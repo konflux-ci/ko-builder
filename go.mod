@@ -167,7 +167,7 @@ require (
 	github.com/hashicorp/go-sockaddr v1.0.7 // indirect
 	github.com/hashicorp/hcl v1.0.1-vault-7 // indirect
 	github.com/hashicorp/vault/api v1.22.0 // indirect
-	github.com/imdario/mergo v0.3.16 // indirect
+	github.com/imdario/mergo v1.0.2 // indirect
 	github.com/in-toto/attestation v1.1.2 // indirect
 	github.com/in-toto/in-toto-golang v0.9.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
