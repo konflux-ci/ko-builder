@@ -1,12 +1,16 @@
-FROM registry.access.redhat.com/ubi9/go-toolset@sha256:75cb847263e05b395c171795d771570994019a8d9d0340ab6ef0e1b02b01bdb4 AS builder
-COPY go.mod go.sum .
+FROM registry.access.redhat.com/ubi9/go-toolset@sha256:75cb847263e05b395c171795d771570994019a8d9d0340ab6ef0e1b02b01bdb4 AS ko-builder
+COPY tools/ko/go.mod .
+COPY tools/ko/go.sum .
 RUN GOBIN=/tmp go install -mod=readonly github.com/google/ko
-RUN GOBIN=/tmp go install -mod=readonly github.com/sigstore/cosign/v2/cmd/cosign
+
+FROM registry.access.redhat.com/ubi9/go-toolset@sha256:75cb847263e05b395c171795d771570994019a8d9d0340ab6ef0e1b02b01bdb4 AS cosign-builder
+COPY tools/cosign/go.mod .
+COPY tools/cosign/go.sum .
+RUN GOBIN=/tmp go install -mod=readonly github.com/sigstore/cosign/v3/cmd/cosign
 
 FROM registry.access.redhat.com/ubi9/go-toolset@sha256:75cb847263e05b395c171795d771570994019a8d9d0340ab6ef0e1b02b01bdb4
-COPY --from=builder /tmp/ko /usr/bin/ko
-COPY --from=builder /tmp/cosign /usr/bin/cosign
-
+COPY --from=ko-builder /tmp/ko /usr/bin/ko
+COPY --from=cosign-builder /tmp/cosign /usr/bin/cosign
 
 ENTRYPOINT ["/usr/bin/ko"]
 
