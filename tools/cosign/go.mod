@@ -245,7 +245,7 @@ require (
 	github.com/theupdateframework/go-tuf/v2 v2.2.0 // indirect
 	github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
-	github.com/transparency-dev/formats v0.0.0-20250421220931-bb8ad4d07c26 // indirect
+	github.com/transparency-dev/formats v0.0.0-20251208091212-1378f9e1b1b7 // indirect
 	github.com/transparency-dev/merkle v0.0.2 // indirect
 	github.com/transparency-dev/tessera v1.0.0 // indirect
 	github.com/valyala/fastjson v1.6.4 // indirect
