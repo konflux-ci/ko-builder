@@ -2,9 +2,26 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "osvVulnerabilityAlerts": true,
   "semanticCommits": "disabled",
-  "postUpdateOptions": [
-    "gomodTidy"
-  ],
   "automerge": true,
-  "prHourlyLimit": 1
+  "prHourlyLimit": 1,
+  "enabledManagers": [
+    "gomod"
+  ],
+  "gomod": {
+    "postUpdateOptions": [
+      "gomodUpdateImportPaths",
+      "gomodTidy"
+    ],
+    "packageRules": [
+      {
+        "matchManagers": [
+          "gomod"
+        ],
+        "matchDepTypes": [
+          "indirect"
+        ],
+        "enabled": false
+      }
+    ]
+  }
 }
