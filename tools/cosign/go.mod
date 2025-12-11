@@ -15,7 +15,7 @@ require (
 	cloud.google.com/go/longrunning v0.7.0 // indirect
 	cloud.google.com/go/monitoring v1.24.3 // indirect
 	cloud.google.com/go/spanner v1.86.1 // indirect
-	cloud.google.com/go/storage v1.57.0 // indirect
+	cloud.google.com/go/storage v1.57.1 // indirect
 	cuelabs.dev/go/oci/ociregistry v0.0.0-20251112093024-b12090c4dee0 // indirect
 	cuelang.org/go v0.15.1 // indirect
 	github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/provider v0.20.0 // indirect
@@ -221,7 +221,7 @@ require (
 	github.com/sigstore/protobuf-specs v0.5.0 // indirect
 	github.com/sigstore/rekor v1.4.3 // indirect
 	github.com/sigstore/rekor-tiles v0.1.11 // indirect
-	github.com/sigstore/rekor-tiles/v2 v2.0.0-rc2 // indirect
+	github.com/sigstore/rekor-tiles/v2 v2.0.1 // indirect
 	github.com/sigstore/sigstore v1.9.6-0.20250729224751-181c5d3339b3 // indirect
 	github.com/sigstore/sigstore-go v1.1.3 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/aws v1.10.0 // indirect
@@ -247,7 +247,7 @@ require (
 	github.com/tjfoc/gmsm v1.4.1 // indirect
 	github.com/transparency-dev/formats v0.0.0-20251208091212-1378f9e1b1b7 // indirect
 	github.com/transparency-dev/merkle v0.0.2 // indirect
-	github.com/transparency-dev/tessera v1.0.0 // indirect
+	github.com/transparency-dev/tessera v1.0.1-0.20251104110637-ba6c65c4ae73 // indirect
 	github.com/valyala/fastjson v1.6.4 // indirect
 	github.com/vbatts/tar-split v0.12.2 // indirect
 	github.com/vektah/gqlparser/v2 v2.5.31 // indirect
