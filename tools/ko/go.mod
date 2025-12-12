@@ -120,7 +120,7 @@ require (
 	github.com/sigstore/sigstore/pkg/signature/kms/azure v1.10.0 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.10.2 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.10.0 // indirect
-	github.com/sigstore/timestamp-authority v1.2.6 // indirect
+	github.com/sigstore/timestamp-authority/v2 v2.0.3 // indirect
 	github.com/sirupsen/logrus v1.9.4-0.20251023124752-b61f268f75b6 // indirect
 	github.com/spf13/afero v1.15.0 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
