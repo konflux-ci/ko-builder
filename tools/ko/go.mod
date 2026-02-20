@@ -66,12 +66,12 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.24.1 // indirect
-	github.com/go-openapi/errors v0.22.5 // indirect
+	github.com/go-openapi/errors v0.22.6 // indirect
 	github.com/go-openapi/jsonpointer v0.22.4 // indirect
 	github.com/go-openapi/jsonreference v0.21.4 // indirect
 	github.com/go-openapi/loads v0.23.2 // indirect
 	github.com/go-openapi/runtime v0.29.2 // indirect
-	github.com/go-openapi/spec v0.22.2 // indirect
+	github.com/go-openapi/spec v0.22.3 // indirect
 	github.com/go-openapi/strfmt v0.25.0 // indirect
 	github.com/go-openapi/swag v0.25.4 // indirect
 	github.com/go-openapi/swag/cmdutils v0.25.4 // indirect
@@ -119,11 +119,10 @@ require (
 	github.com/shibumi/go-pathspec v1.3.0 // indirect
 	github.com/sigstore/cosign/v2 v2.6.1 // indirect
 	github.com/sigstore/protobuf-specs v0.5.0 // indirect
-	github.com/sigstore/rekor v1.4.3 // indirect
+	github.com/sigstore/rekor v1.5.0 // indirect
 	github.com/sigstore/rekor-tiles/v2 v2.0.1 // indirect
 	github.com/sigstore/sigstore v1.10.3 // indirect
 	github.com/sigstore/sigstore-go v1.1.4 // indirect
-	github.com/sigstore/sigstore/pkg/signature/kms/aws v1.10.2 // indirect
 	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.10.2 // indirect
 	github.com/sigstore/timestamp-authority/v2 v2.0.3 // indirect
 	github.com/sirupsen/logrus v1.9.4-0.20251023124752-b61f268f75b6 // indirect
@@ -159,8 +158,8 @@ require (
 	golang.org/x/text v0.32.0 // indirect
 	golang.org/x/tools v0.40.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20251213004720-97cd9d5aeac2 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20251213004720-97cd9d5aeac2 // indirect
-	google.golang.org/grpc v1.77.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251222181119-0a764e51fe1b // indirect
+	google.golang.org/grpc v1.78.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.5.2 // indirect
