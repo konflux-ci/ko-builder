@@ -1,6 +1,6 @@
 module github.com/konflux-ci/ko-builder
 
-go 1.25.0
+go 1.25.5
 
 require github.com/google/ko v0.18.1
 
@@ -114,7 +114,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sagikazarmark/locafero v0.12.0 // indirect
 	github.com/sassoftware/relic v7.2.1+incompatible // indirect
-	github.com/secure-systems-lab/go-securesystemslib v0.9.1 // indirect
+	github.com/secure-systems-lab/go-securesystemslib v0.10.0 // indirect
 	github.com/sergi/go-diff v1.4.0 // indirect
 	github.com/shibumi/go-pathspec v1.3.0 // indirect
 	github.com/sigstore/cosign/v2 v2.6.2 // indirect
@@ -132,7 +132,7 @@ require (
 	github.com/spf13/viper v1.21.0 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/theupdateframework/go-tuf v0.7.0 // indirect
-	github.com/theupdateframework/go-tuf/v2 v2.3.0 // indirect
+	github.com/theupdateframework/go-tuf/v2 v2.4.1 // indirect
 	github.com/transparency-dev/formats v0.0.0-20251208091212-1378f9e1b1b7 // indirect
 	github.com/transparency-dev/merkle v0.0.2 // indirect
 	github.com/vbatts/tar-split v0.12.2 // indirect
