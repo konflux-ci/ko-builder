@@ -8,7 +8,7 @@ COPY tools/cosign/go.mod .
 COPY tools/cosign/go.sum .
 RUN GOBIN=/tmp go install -mod=readonly github.com/sigstore/cosign/v3/cmd/cosign
 
-FROM registry.access.redhat.com/ubi9/go-toolset@sha256:56fc8480721e5febbd2b6810199a63b5b68c3c5ab826d082c8247054a1dc33e7
+FROM registry.access.redhat.com/ubi9/go-toolset@sha256:c928a8d014091005444cd8d0de2f9815d2162b89ac9d075c1f8d7c9caf41177e
 COPY --from=ko-builder /tmp/ko /usr/bin/ko
 COPY --from=cosign-builder /tmp/cosign /usr/bin/cosign
 
