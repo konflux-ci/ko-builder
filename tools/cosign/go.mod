@@ -1,6 +1,6 @@
 module github.com/konflux-ci/ko-builder
 
-go 1.26.7
+go 1.26.10
 
 require github.com/sigstore/cosign/v3 v3.1.3
 

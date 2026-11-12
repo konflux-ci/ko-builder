@@ -1,6 +1,6 @@
 module github.com/konflux-ci/ko-builder
 
-go 1.26.7
+go 1.26.10
 
 require github.com/google/ko v0.19.1
 
